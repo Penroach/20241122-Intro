@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <title>Wire | 自己紹介ページ</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <main>
         <section id="profile">
-            <h2>PROFILE</h2>
-            <img src="./img/p1.png" alt="profilepic">
-            <p class="my-name">
+            <h2 data-aos="fade-up">PROFILE</h2>
+            <img data-aos="flip-left" data-aos-delay="150" src="./img/p1.png" alt="profilepic">
+            <p data-aos="zoom-in-up" data-aos-delay="250" class="my-name">
                 <ruby>
                     Penroach Thanatorn
                     <rt>ペンローチ　タナトーン</rt>
@@ -19,7 +21,7 @@
             <p class="my-intro">
                 どうぞよろしくお願いします。
             </p>
-            <div class="contents-area">
+            <div  data-aos="fade-right" data-aos-delay="350" class="contents-area">
 
                 <div class="left-area">
                     <h3>生年月日</h3>
@@ -66,7 +68,8 @@
 
         <section id="favorite"> 
             <h2>FAVORITE</h2>        
-            <div class="contents-area">
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="top-center" data-aos-delay="100" class="contents-area">
 
                 <div class="left-area">
                     <h3>好きなマンガ</h3>
@@ -101,5 +104,8 @@
             </div>
         </section>
     </main>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
