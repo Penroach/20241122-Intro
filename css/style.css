@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #E0D3BA;
+    color: #212121;
+}
+
+main{
+    width: 1000px;
+    margin: 80px auto;
+    padding: 80px;
+    background: #FFEDCE;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 16px 0;
+    border-top: 2px solid #212121;
+    border-bottom: 2px solid #212121;
+    text-align: center;
+    margin-bottom: 40px;
+    background: #FFCC99;
+    border-radius: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 4px 0 4px 16px;
+    border-left: 8px solid #212121;
+    margin-bottom: 20px;
+}
+
+.contents-area {
+    display: flex;
+    gap: 40px;
+}
+
+.left-area , .right-area {
+    width: 400px;
+}
+
+.contents {
+    padding-left: 24px;
+    margin-bottom: 20px;
+}
+
+#profile {
+    margin-bottom: 80px;
+}
+
+#profile img {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.my-name {
+    font-size: 24px;
+    text-align: center;
+    margin: 40px 0;
+    
+}
+
+.my-name rt{
+    margin-bottom: 4px;
+}
+
+.my-intro {
+    width: 500px;
+    margin: 40px auto;
+    text-align: center;
+    
+}
+.pic {
+    border-radius: 15px;
+}
+/* iframe {
+maxwidth for image size */
